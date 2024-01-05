@@ -1,4 +1,5 @@
 ﻿using System;
+using static ClassAgain.Kittu_work;
 
 namespace ClassAgain
 {
@@ -6,9 +7,12 @@ namespace ClassAgain
     {
         static void Main(string[] args)
         {
-            MethodsWithAurguments obj3 = new MethodsWithAurguments();
+            Concatination obj = new Concatination();
 
-            obj3.add_of_2_number_by_inputs();
+            obj.Concatinationusingdollarwithinputs();
+
+
         }
-    }    
-}
+    }
+
+}    
