@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassAgain.Conditional_Statements;
+using System;
 using static ClassAgain.Kittu_work;
 
 namespace ClassAgain
@@ -7,11 +8,8 @@ namespace ClassAgain
     {
         static void Main(string[] args)
         {
-            Concatination obj = new Concatination();
-
-            obj.Concatinationusingdollarwithinputs();
-
-
+            IfElse obj = new IfElse();
+            obj.ifelseCondiotion();
         }
     }
 
