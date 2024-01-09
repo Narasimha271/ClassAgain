@@ -26,12 +26,12 @@ namespace ClassAgain.Conditional_Statements
 
             else if (input == "multiplication")
             {
-                Console.WriteLine(a - b);
+                Console.WriteLine(a * b);
             }
 
             else if (input == "subtraction")
             {
-                Console.WriteLine(a * b);
+                Console.WriteLine(a - b);
             }
 
             else if (input == "division")
