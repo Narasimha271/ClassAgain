@@ -31,7 +31,7 @@ namespace ClassAgain.Conditional_Statements
 
             else 
             {
-                Console.WriteLine("Please select either addition or subtraction"); 
+                Console.WriteLine("Given the wrong input, Please run the program again"); 
             }
 
 
