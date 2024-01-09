@@ -16,7 +16,7 @@ namespace ClassAgain.Conditional_Statements
             Console.WriteLine("Please enter second number");
             int b = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Please enter addition or subtraction");
+            Console.WriteLine("Please enter addition or subtraction or multiplication or division");
             string input = Console.ReadLine();
 
             if (input == "addition")
