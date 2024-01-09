@@ -9,7 +9,7 @@ namespace ClassAgain
         static void Main(string[] args)
         {
             IfElse obj = new IfElse();
-            obj.ifelseCondiotion();
+            obj.switchCaseCondition();
         }
     }
 

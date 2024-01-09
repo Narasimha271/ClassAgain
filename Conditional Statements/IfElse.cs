@@ -8,7 +8,7 @@ namespace ClassAgain.Conditional_Statements
 {
     public class IfElse
     {
-        public void ifelseCondiotion() 
+        public void ifelseCondiotion()
         {
             Console.WriteLine("Please enter first number");
             int a = Convert.ToInt32(Console.ReadLine());
@@ -39,13 +39,65 @@ namespace ClassAgain.Conditional_Statements
                 Console.WriteLine(a / b);
             }
 
-            else 
+            else
             {
-                Console.WriteLine("Given the wrong input, Please run the program again"); 
+                Console.WriteLine("Given the wrong input, Please run the program again");
             }
+        }
 
+        public void switchCaseCondition()
+        {
+            Console.WriteLine("Please enter first number");
+            int a = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Please enter second number");
+            int b = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Please enter addition or subtraction or multiplication or division");
+            string input = Console.ReadLine();
+
+            switch ("division")
+            {
+                case "addition":
+                    Console.WriteLine(a + b);
+                    break;
+
+                case "subtraction":
+                    Console.WriteLine(a - b);
+                    break;
+
+                case "division":
+                    Console.WriteLine(a / b);
+                    break;
+
+                case "multiplication":
+                    Console.WriteLine(a * b);
+                    break;
+
+                default:
+                    Console.WriteLine("Given the wrong input, Please run the program again");
+                    break;
+            }
+        }
+
+        public void simpleswitchCaseCondition()
+        {
+            switch ("Test3")
+            {
+                case "Test1":
+                    Console.WriteLine("Test1");
+                    Console.WriteLine("Test1");
+                    break;
+
+                case "Test2":
+                    Console.WriteLine("Test2");
+                    Console.WriteLine("Test2");
+                    break;
+
+                default:
+                    Console.WriteLine("Given the wrong input, Please run the program again");
+                    break;
+            }
         }
     }
 }
