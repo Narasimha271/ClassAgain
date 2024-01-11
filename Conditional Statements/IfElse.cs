@@ -56,7 +56,7 @@ namespace ClassAgain.Conditional_Statements
             Console.WriteLine("Please enter addition or subtraction or multiplication or division");
             string input = Console.ReadLine();
 
-            switch ("division")
+            switch (input)
             {
                 case "addition":
                     Console.WriteLine(a + b);
