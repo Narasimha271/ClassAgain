@@ -7,8 +7,9 @@ namespace ClassAgain
     {
         static void Main(string[] args)
         {
-            loopingstatements obj = new loopingstatements();
-            obj.forloop();
+            Challanges obj = new Challanges();
+            Console.WriteLine(obj.areaofTriangle(7,3)); 
+
         }
     }
 }    

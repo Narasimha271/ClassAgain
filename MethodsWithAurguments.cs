@@ -23,7 +23,7 @@ namespace ClassAgain
         {
             Console.WriteLine(1+2);
         }
-
+        
         public void add_of_2_Numbers(int a, int b) 
         {
             Console.WriteLine("The Addition result is ");
