@@ -4,25 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassAgain
+namespace ClassAgain.Challenges
 {
     public class Challanges
     {
-        public int add(int a) 
+        public int add(int a)
         {
             a++;
             return a;
         }
 
-        public int sumoftwonumbers(int a, int b) 
+        public int sumoftwonumbers(int a, int b)
         {
             int c = a + b;
             return c;
         }
 
-        public float areaofTriangle(int b, int h) 
+        public float areaofTriangle(int b, int h)
         {
-            float a = (b * h);
+            float a = b * h;
             float area = a / 2;
             return area;
         }

@@ -1,4 +1,5 @@
-﻿using ClassAgain.Conditional_Statements;
+﻿using ClassAgain.Challenges;
+using ClassAgain.Conditional_Statements;
 using System;
 using static ClassAgain.Kittu_work;
 namespace ClassAgain
@@ -7,9 +8,9 @@ namespace ClassAgain
     {
         static void Main(string[] args)
         {
-            Challanges obj = new Challanges();
-            Console.WriteLine(obj.areaofTriangle(7,3)); 
-
+            arracyschallanges obj = new arracyschallanges();
+            obj.numberswithourDuplicates();
         }
     }
 }    
+
