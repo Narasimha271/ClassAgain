@@ -30,8 +30,6 @@ namespace ClassAgain
         public void useofMethodsforArrays() 
         {
             // Sort() is used to sort an array in an assending order            
-
-
             Array.Sort(apples);
             foreach (int apple in apples)
             {

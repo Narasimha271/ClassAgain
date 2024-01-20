@@ -13,18 +13,31 @@ namespace ClassAgain
         public int add(int a, int b)
         {
             int c = a + b;
-            Console.WriteLine(c);
             return c;
         }
 
         public int sub(int a, int b)
         {
             int d = a - b;
-            Console.WriteLine(d);
             return d;
         }
 
-        public void addition() 
+        public void mul() 
+        {
+            MethodWithOutput obj = new MethodWithOutput();
+            Console.WriteLine(obj.add(1, 2) * obj.sub(1, 2));
+        }
+
+        public void div() // print sum of 2nums and sub of 2 nums
+        {
+            MethodWithOutput obj = new MethodWithOutput();
+            Console.WriteLine(obj.add(1, 2));
+            Console.WriteLine(obj.sub(1, 2));
+            Console.WriteLine(obj.add(1, 2) / obj.sub(1, 2));
+
+        }
+
+        public void addition()
         {
             Console.WriteLine(" Please enter first number");
             int a = Convert.ToInt32(Console.ReadLine());

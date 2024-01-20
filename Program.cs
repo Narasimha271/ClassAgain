@@ -1,4 +1,5 @@
 ﻿using ClassAgain.Challenges;
+using ClassAgain.Challenges.Day3;
 using ClassAgain.Conditional_Statements;
 using System;
 using static ClassAgain.Kittu_work;
@@ -8,8 +9,8 @@ namespace ClassAgain
     {
         static void Main(string[] args)
         {
-            arracyschallanges obj = new arracyschallanges();
-            obj.numberswithourDuplicates();
+            EvenorOdd obj = new EvenorOdd();
+            obj.methodeven();
         }
     }
 }    
