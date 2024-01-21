@@ -9,8 +9,8 @@ namespace ClassAgain
     {
         static void Main(string[] args)
         {
-            EvenorOdd obj = new EvenorOdd();
-            obj.methodeven();
+            Pallindrome obj = new Pallindrome();
+            obj.pallindrome("level");
         }
     }
 }    

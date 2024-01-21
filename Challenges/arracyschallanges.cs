@@ -16,6 +16,8 @@ namespace ClassAgain.Challenges
 
             // 1, 1, 1, 2, 2, 3, 4, 4, 5, 5, 5, 6, 7, 9 
             // 0, 0, 1, 0, 2, 3, 0, 4, 0, 0, 5, 6, 7, 9 
+            //arrayofNumbers[arrayofNumbers.Length -1]
+            //arrayofNumbers[13] = 9
             for (int i=0; i< arrayofNumbers.Length; i++) 
             {
                 if ((i + 1) != arrayofNumbers.Length)
