@@ -15,8 +15,9 @@ namespace ClassAgain.Challenges.Day3
             int Digits = 0;
             for (int i = input; i >0; i = i/10 )
             {
-                Digits = Digits + (i % 10);
+                Digits = Digits + (i % 10); // =12
             }
+
             Console.WriteLine( Digits );
 
 

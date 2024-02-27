@@ -9,8 +9,8 @@ namespace ClassAgain
     {
         static void Main(string[] args)
         {
-            Pallindrome obj = new Pallindrome();
-            obj.pallindrome("level");
+            dice_game obj = new dice_game();
+            obj.DG();
         }
     }
 }    
